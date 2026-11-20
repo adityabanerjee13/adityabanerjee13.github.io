@@ -21,7 +21,8 @@
     var range = document.getElementById('fs-range');
     var out = document.getElementById('fs-out');
     var root = document.documentElement;
-    function base() { return window.innerWidth >= 768 ? 18 : 16; } // template defaults
+    /* template default sizes: 18px on wide screens, 16px on phones */
+    function base() { return window.innerWidth >= 768 ? 18 : 16; }
     function apply(pct) {
       var px = base() * pct / 100;
       root.style.fontSize = pct === 100 ? '' : px + 'px';
