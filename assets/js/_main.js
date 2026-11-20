@@ -18,11 +18,11 @@ function determineComputedTheme() {
   let themeSetting = localStorage.getItem("theme");
   themeSetting = (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
 
-  // Return the setting if set, or use the browser preference
+  // Return the setting if set; otherwise default to dark
   if (themeSetting != "system") {
     return themeSetting;
   }
-  return browserPref ? "dark" : "light";
+  return "dark";
 }
 
 // Set the theme on page load or when explicitly called. Without an argument the
