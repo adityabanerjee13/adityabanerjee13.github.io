@@ -17,13 +17,6 @@ Background
 * Work on LLM agents, RAG and evaluation, and on image reconstruction with convergence guarantees
 * Tools: Python, PyTorch, JAX, LangGraph, FastAPI, Docker, AWS
 
-Publications
-======
-* **[Trainable Nonexpansive Denoisers for Contractive Image Reconstruction](https://arxiv.org/abs/2607.23347)**<br>
-  Arghya Sinha, **Aditya Banerjee**, Trishit Mukherjee, Kunal N. Chaudhury. *ICML 2026*.
-  [Paper](https://arxiv.org/abs/2607.23347) · [Code](https://github.com/arghyasinha/nectr)
-* **Open source:** contributor to [deepinv](https://github.com/deepinv/deepinv), a PyTorch library for inverse problems in imaging.
-
 Experience
 ======
 * **AI Engineer (intern), LatentForce Intelligence**, Jan – Jul 2026
@@ -36,3 +29,10 @@ Experience
   * Linear denoisers (bilateral filtering, non-local means) for deblurring, inpainting and super-resolution; led to the ICML 2026 paper
 * **Electrical Design Engineer, Tasa Micro SPM**, Aug 2020 – Sep 2022
   * Designed plant electrical systems; led commissioning of a turning machine at the Ordnance Factory, Ambernath
+
+Publications
+======
+* **[Trainable Nonexpansive Denoisers for Contractive Image Reconstruction](https://arxiv.org/abs/2607.23347)**<br>
+  Arghya Sinha, **Aditya Banerjee**, Trishit Mukherjee, Kunal N. Chaudhury. *ICML 2026*.
+  [Paper](https://arxiv.org/abs/2607.23347) · [Code](https://github.com/arghyasinha/nectr)
+* **Open source:** contributor to [deepinv](https://github.com/deepinv/deepinv), a PyTorch library for inverse problems in imaging.

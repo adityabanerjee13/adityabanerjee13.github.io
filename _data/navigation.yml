@@ -1,7 +1,2 @@
-# Links in the site header, in order.
-main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "CV"
-    url: /cv/
+# Links in the site header, in order. Empty: the header shows only the site name and theme toggle.
+main: []
